@@ -32,7 +32,7 @@ export default function Result({ result }) {
                     return <tr key={data.year}>
                         <td>{data.year}</td>
                         <td>{formatter.format(data.valueEndOfYear)}</td>
-                        <td>{formatter.format(data.annualInvestment)}</td>
+                        <td>{formatter.format(data.interest)}</td>
                         <td>{formatter.format(totalInterest)}</td>
                         <td>{formatter.format(initialInvestment + data.annualInvestment * data.year)}</td>
                     </tr>
