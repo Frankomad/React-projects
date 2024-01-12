@@ -9,7 +9,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(#303b37, #1a1f1d);
+  background: radial-gradient(#7d5d85, #1f1a1f);
   color: #e1eeeb;
   min-height: 100vh;
 }
@@ -36,7 +36,7 @@ body {
   max-width: 30rem;
   margin: 2rem auto;
   border-radius: 4px;
-  background: linear-gradient(180deg, #307e6c, #2b996d);
+  background: linear-gradient(180deg, #6c3492, #992b78);
 }
 
 .input-group {
@@ -57,7 +57,7 @@ body {
 #user-input input {
   width: 100%;
   padding: 0.5rem;
-  border: 1px solid #76c0ae;
+  border: 1px solid #fdfdfd;
   border-radius: 0.25rem;
   background-color: transparent;
   color: #c2e9e0;
@@ -74,8 +74,8 @@ body {
 }
 
 #result thead {
-  font-size: 0.7rem;
-  color: #83e6c0;
+  font-size: 0.9rem;
+  color: #c7abec;
 }
 
 #result tbody {
